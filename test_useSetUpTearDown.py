@@ -3,7 +3,7 @@ import unittest
 #Exemple de Classe qui permet de tester l'allocation des ressources avant le test et la liberation des ressources apres le test
 class ClasseDeTest(unittest.TestCase):
 #Instruction avant pour initialiser les ressources
-    def test_openConnexion(self):
+    def test_setup(self):
         print("Avant le test")
 
 #Execution des tests
@@ -11,7 +11,7 @@ class ClasseDeTest(unittest.TestCase):
         print("Réalisation de test")
         self.assertTrue(True)
 #Instruction pour desengager les ressources
-    def test_closeConnexion(self):
+    def test_tearDown(self):
         print("Après le test")
 
 if __name__ == '__main__':
