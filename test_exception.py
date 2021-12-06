@@ -3,7 +3,7 @@ import unittest
 
 class ExceptionTest(unittest.TestCase):
 
-    def valeurAbsolue(self):
+    def test_valeurAbsolue(self):
         with self.assertRaises(TypeError):
             abs("a")
 
