@@ -1,4 +1,5 @@
 import pytest
+#Ici on teste la notion de fixture
 @pytest.fixture
 def initialisation():
      valeur = 100
