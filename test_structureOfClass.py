@@ -1,6 +1,6 @@
 import unittest
 
-#Exemple d’une classe de test
+#Exemple d’une classe de test avec unitest
 class ClasseDeTest(unittest.TestCase):
 
     def test_simple(self):
