@@ -1,2 +1,3 @@
 01,Frederic,Masson,12 rue de la république 69002
 02,Arthur,Durant,11 rue de la paix 75002
+03,Pierre,Bertran,57 rue Alfred de Vigny 69800
