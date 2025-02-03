@@ -1,6 +1,7 @@
 import unittest
 
-#Exemple de Classe qui permet de tester l'allocation des ressources avant le test et la liberation des ressources apres le test
+#Exemple de Classe qui permet de tester l'allocation des ressources avant le test 
+#et la liberation des ressources apres le test
 class ClasseDeTest(unittest.TestCase):
 #Instruction avant pour initialiser les ressources
     def test_setup(self):
