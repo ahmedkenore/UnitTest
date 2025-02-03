@@ -4,7 +4,7 @@ import os
 pathOfClientFile="client.txt"
 # Le separateur des données clients
 separator=","
-# Le nombre de donnée par enregistrement
+# Le nombre de donnée par enregistrement(ligne)
 dataNumberForEachLin=4
 # Fonction qui permet de récupérer le nom du fichier 
 #   -Paramètre d'entrée : le chemin du fichier
