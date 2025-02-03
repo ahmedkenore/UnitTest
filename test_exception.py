@@ -1,5 +1,6 @@
 import unittest
 
+#Ici on teste les exceptions
 
 class ExceptionTest(unittest.TestCase):
 
