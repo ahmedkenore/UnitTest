@@ -1,6 +1,6 @@
 import sys
 import os
-# Le chemin du fichier client
+# Le chemin du fichier client 
 pathOfClientFile="client.txt"
 # Le separateur des données clients
 separator=","
