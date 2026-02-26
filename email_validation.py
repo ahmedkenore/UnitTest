@@ -1,6 +1,6 @@
 #Fonction qui permet de valider une adresse mail 
 #   -Paramètre d'entrée : l'adresse à valider
-#   -Donnée retour      : true si l'adresse mail est bien validée
+#   -Donnée retour      : true si l'adresse mail est bien validée 
 def validate_email(address):
       if '@' not in address:
             return False
